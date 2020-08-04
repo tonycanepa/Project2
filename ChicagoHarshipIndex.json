@@ -1,0 +1,1001 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "kn9c-c2s2",
+      "name" : "Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012",
+      "attribution" : "U.S. Census Bureau",
+      "attributionLink" : "http://factfinder2.census.gov/",
+      "averageRating" : 0,
+      "category" : "Health & Human Services",
+      "createdAt" : 1325774885,
+      "description" : "This dataset contains a selection of six socioeconomic indicators of public health significance and a “hardship index,” by Chicago community area, for the years 2008 – 2012. The indicators are the percent of occupied housing units with more than one person per room (i.e., crowded housing); the percent of households living below the federal poverty level; the percent of persons in the labor force over the age of 16 years that are unemployed; the percent of persons over the age of 25 years without a high school diploma; the percent of the population under 18 or over 64 years of age (i.e., dependency); and per capita income. Indicators for Chicago as a whole are provided in the final row of the table.  See the full dataset description for more information at: https://data.cityofchicago.org/api/views/fwb8-6aw5/files/A5KBlegGR2nWI1jgP6pjJl32CTPwPbkl9KU3FxlZk-A?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\ECONOMIC_INDICATORS\\Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf",
+      "displayType" : "table",
+      "downloadCount" : 31890,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1412608254,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 8853520,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1410555416,
+      "publicationGroup" : 269723,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1410555218,
+      "rowsUpdatedBy" : "is6y-5c5n",
+      "tableId" : 1716866,
+      "totalTimesRated" : 0,
+      "viewCount" : 133763,
+      "viewLastModified" : 1410555416,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1410555416,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 940359,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1410555416,
+        "workflowId" : 2226,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "is6y-5c5n",
+          "displayName" : "Jamyia"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 166494366,
+        "name" : "Community Area Number",
+        "dataTypeName" : "number",
+        "fieldName" : "ca",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907332,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 77,
+          "average" : "39",
+          "largest" : "77",
+          "null" : 1,
+          "top" : [ {
+            "item" : "42",
+            "count" : 20
+          }, {
+            "item" : "43",
+            "count" : 19
+          }, {
+            "item" : "44",
+            "count" : 18
+          }, {
+            "item" : "45",
+            "count" : 17
+          }, {
+            "item" : "46",
+            "count" : 16
+          }, {
+            "item" : "47",
+            "count" : 15
+          }, {
+            "item" : "48",
+            "count" : 14
+          }, {
+            "item" : "49",
+            "count" : 13
+          }, {
+            "item" : "50",
+            "count" : 12
+          }, {
+            "item" : "51",
+            "count" : 11
+          }, {
+            "item" : "52",
+            "count" : 10
+          }, {
+            "item" : "53",
+            "count" : 9
+          }, {
+            "item" : "54",
+            "count" : 8
+          }, {
+            "item" : "55",
+            "count" : 7
+          }, {
+            "item" : "56",
+            "count" : 6
+          }, {
+            "item" : "57",
+            "count" : 5
+          }, {
+            "item" : "58",
+            "count" : 4
+          }, {
+            "item" : "59",
+            "count" : 3
+          }, {
+            "item" : "60",
+            "count" : 2
+          }, {
+            "item" : "61",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "3003"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494367,
+        "name" : "COMMUNITY AREA NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "community_area_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1907333,
+        "width" : 191,
+        "cachedContents" : {
+          "non_null" : 78,
+          "largest" : "Woodlawn",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Woodlawn",
+            "count" : 20
+          }, {
+            "item" : "South Shore",
+            "count" : 19
+          }, {
+            "item" : "Chatham",
+            "count" : 18
+          }, {
+            "item" : "Avalon Park",
+            "count" : 17
+          }, {
+            "item" : "South Chicago",
+            "count" : 16
+          }, {
+            "item" : "Burnside",
+            "count" : 15
+          }, {
+            "item" : "Calumet Heights",
+            "count" : 14
+          }, {
+            "item" : "Roseland",
+            "count" : 13
+          }, {
+            "item" : "Pullman",
+            "count" : 12
+          }, {
+            "item" : "South Deering",
+            "count" : 11
+          }, {
+            "item" : "East Side",
+            "count" : 10
+          }, {
+            "item" : "West Pullman",
+            "count" : 9
+          }, {
+            "item" : "Riverdale",
+            "count" : 8
+          }, {
+            "item" : "Hegewisch",
+            "count" : 7
+          }, {
+            "item" : "Garfield Ridge",
+            "count" : 6
+          }, {
+            "item" : "Archer Heights",
+            "count" : 5
+          }, {
+            "item" : "Brighton Park",
+            "count" : 4
+          }, {
+            "item" : "McKinley Park",
+            "count" : 3
+          }, {
+            "item" : "Bridgeport",
+            "count" : 2
+          }, {
+            "item" : "New City",
+            "count" : 1
+          } ],
+          "smallest" : "Albany Park"
+        },
+        "format" : { }
+      }, {
+        "id" : 166494368,
+        "name" : "PERCENT OF HOUSING CROWDED",
+        "dataTypeName" : "number",
+        "description" : "Percent occupied housing units with more than one person per room",
+        "fieldName" : "percent_of_housing_crowded",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907334,
+        "width" : 253,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "4.920512820512821",
+          "largest" : "15.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.8",
+            "count" : 20
+          }, {
+            "item" : "1.1",
+            "count" : 19
+          }, {
+            "item" : "6.3",
+            "count" : 18
+          }, {
+            "item" : "3.2",
+            "count" : 17
+          }, {
+            "item" : "1.5",
+            "count" : 16
+          }, {
+            "item" : "1.3",
+            "count" : 15
+          }, {
+            "item" : "3.3",
+            "count" : 14
+          }, {
+            "item" : "4",
+            "count" : 13
+          }, {
+            "item" : "6.8",
+            "count" : 12
+          }, {
+            "item" : "5.8",
+            "count" : 11
+          }, {
+            "item" : "2.6",
+            "count" : 10
+          }, {
+            "item" : "8.5",
+            "count" : 9
+          }, {
+            "item" : "14.4",
+            "count" : 8
+          }, {
+            "item" : "7.2",
+            "count" : 7
+          }, {
+            "item" : "4.5",
+            "count" : 6
+          }, {
+            "item" : "11.9",
+            "count" : 5
+          }, {
+            "item" : "11.1",
+            "count" : 4
+          }, {
+            "item" : "15.8",
+            "count" : 3
+          }, {
+            "item" : "2.7",
+            "count" : 2
+          }, {
+            "item" : "7.6",
+            "count" : 1
+          } ],
+          "smallest" : "0.3",
+          "sum" : "383.8"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494369,
+        "name" : "PERCENT HOUSEHOLDS BELOW POVERTY",
+        "dataTypeName" : "number",
+        "description" : "Percent of households living below the federal poverty level\n",
+        "fieldName" : "percent_households_below_poverty",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907335,
+        "width" : 305,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "21.73974358974359",
+          "largest" : "56.5",
+          "null" : 0,
+          "top" : [ {
+            "item" : "17.2",
+            "count" : 20
+          }, {
+            "item" : "7.5",
+            "count" : 19
+          }, {
+            "item" : "15.3",
+            "count" : 18
+          }, {
+            "item" : "14.7",
+            "count" : 17
+          }, {
+            "item" : "30.7",
+            "count" : 16
+          }, {
+            "item" : "33",
+            "count" : 15
+          }, {
+            "item" : "11.5",
+            "count" : 14
+          }, {
+            "item" : "19.8",
+            "count" : 13
+          }, {
+            "item" : "21.6",
+            "count" : 12
+          }, {
+            "item" : "29.2",
+            "count" : 11
+          }, {
+            "item" : "19.2",
+            "count" : 10
+          }, {
+            "item" : "25.9",
+            "count" : 9
+          }, {
+            "item" : "56.5",
+            "count" : 8
+          }, {
+            "item" : "17.1",
+            "count" : 7
+          }, {
+            "item" : "8.8",
+            "count" : 6
+          }, {
+            "item" : "14.1",
+            "count" : 5
+          }, {
+            "item" : "23.6",
+            "count" : 4
+          }, {
+            "item" : "18.7",
+            "count" : 3
+          }, {
+            "item" : "18.9",
+            "count" : 2
+          }, {
+            "item" : "29",
+            "count" : 1
+          } ],
+          "smallest" : "3.3",
+          "sum" : "1695.7"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494370,
+        "name" : "PERCENT AGED 16+ UNEMPLOYED",
+        "dataTypeName" : "number",
+        "description" : "Percent of persons over the age of 16 years that are unemployed",
+        "fieldName" : "percent_aged_16_unemployed",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907336,
+        "width" : 261,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "15.34102564102564",
+          "largest" : "35.9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "8.2",
+            "count" : 20
+          }, {
+            "item" : "10",
+            "count" : 19
+          }, {
+            "item" : "15.8",
+            "count" : 18
+          }, {
+            "item" : "19.7",
+            "count" : 17
+          }, {
+            "item" : "18.6",
+            "count" : 16
+          }, {
+            "item" : "20",
+            "count" : 15
+          }, {
+            "item" : "20.3",
+            "count" : 14
+          }, {
+            "item" : "22.8",
+            "count" : 13
+          }, {
+            "item" : "16.3",
+            "count" : 12
+          }, {
+            "item" : "12.1",
+            "count" : 11
+          }, {
+            "item" : "19.4",
+            "count" : 10
+          }, {
+            "item" : "34.6",
+            "count" : 9
+          }, {
+            "item" : "9.6",
+            "count" : 8
+          }, {
+            "item" : "11.3",
+            "count" : 7
+          }, {
+            "item" : "16.5",
+            "count" : 6
+          }, {
+            "item" : "13.9",
+            "count" : 5
+          }, {
+            "item" : "13.4",
+            "count" : 4
+          }, {
+            "item" : "13.7",
+            "count" : 3
+          }, {
+            "item" : "23",
+            "count" : 2
+          }, {
+            "item" : "16.7",
+            "count" : 1
+          } ],
+          "smallest" : "4.7",
+          "sum" : "1196.6"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494371,
+        "name" : "PERCENT AGED 25+ WITHOUT HIGH SCHOOL DIPLOMA",
+        "dataTypeName" : "number",
+        "description" : "Percent of persons over the age of 25 years without a high school education",
+        "fieldName" : "percent_aged_25_without_high_school_diploma",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907337,
+        "width" : 382,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "20.33076923076923",
+          "largest" : "54.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "13.4",
+            "count" : 20
+          }, {
+            "item" : "7.4",
+            "count" : 19
+          }, {
+            "item" : "14.5",
+            "count" : 18
+          }, {
+            "item" : "10.6",
+            "count" : 17
+          }, {
+            "item" : "26.6",
+            "count" : 16
+          }, {
+            "item" : "19.3",
+            "count" : 15
+          }, {
+            "item" : "11",
+            "count" : 14
+          }, {
+            "item" : "16.9",
+            "count" : 13
+          }, {
+            "item" : "13.1",
+            "count" : 12
+          }, {
+            "item" : "21",
+            "count" : 11
+          }, {
+            "item" : "31.9",
+            "count" : 10
+          }, {
+            "item" : "20.5",
+            "count" : 9
+          }, {
+            "item" : "27.5",
+            "count" : 8
+          }, {
+            "item" : "19.2",
+            "count" : 7
+          }, {
+            "item" : "35.9",
+            "count" : 6
+          }, {
+            "item" : "45.1",
+            "count" : 5
+          }, {
+            "item" : "32.9",
+            "count" : 4
+          }, {
+            "item" : "22.2",
+            "count" : 3
+          }, {
+            "item" : "41.5",
+            "count" : 2
+          }, {
+            "item" : "37",
+            "count" : 1
+          } ],
+          "smallest" : "2.5",
+          "sum" : "1585.8"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494372,
+        "name" : "PERCENT AGED UNDER 18 OR OVER 64",
+        "dataTypeName" : "number",
+        "description" : "Percent of the population under 18 or over 64 years of age (i.e., dependency)",
+        "fieldName" : "percent_aged_under_18_or_over_64",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907338,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "35.71794871794872",
+          "largest" : "51.5",
+          "null" : 0,
+          "top" : [ {
+            "item" : "22.2",
+            "count" : 20
+          }, {
+            "item" : "26.2",
+            "count" : 19
+          }, {
+            "item" : "39.5",
+            "count" : 18
+          }, {
+            "item" : "41.1",
+            "count" : 17
+          }, {
+            "item" : "42.7",
+            "count" : 16
+          }, {
+            "item" : "44",
+            "count" : 15
+          }, {
+            "item" : "41.2",
+            "count" : 14
+          }, {
+            "item" : "38.6",
+            "count" : 13
+          }, {
+            "item" : "42.8",
+            "count" : 12
+          }, {
+            "item" : "42.1",
+            "count" : 11
+          }, {
+            "item" : "51.5",
+            "count" : 10
+          }, {
+            "item" : "42.9",
+            "count" : 9
+          }, {
+            "item" : "38.1",
+            "count" : 8
+          }, {
+            "item" : "39.2",
+            "count" : 7
+          }, {
+            "item" : "39.3",
+            "count" : 6
+          }, {
+            "item" : "35.6",
+            "count" : 5
+          }, {
+            "item" : "31.3",
+            "count" : 4
+          }, {
+            "item" : "38.9",
+            "count" : 3
+          }, {
+            "item" : "37.7",
+            "count" : 2
+          }, {
+            "item" : "38.8",
+            "count" : 1
+          } ],
+          "smallest" : "13.5",
+          "sum" : "2786.0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494373,
+        "name" : "PER CAPITA INCOME ",
+        "dataTypeName" : "number",
+        "description" : "Community Area Per capita income is estimated as the sum of tract-level aggregate incomes divided by the total population\n\n",
+        "fieldName" : "per_capita_income_",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907339,
+        "width" : 195,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "25597",
+          "largest" : "88669",
+          "null" : 0,
+          "top" : [ {
+            "item" : "18672",
+            "count" : 20
+          }, {
+            "item" : "19398",
+            "count" : 19
+          }, {
+            "item" : "18881",
+            "count" : 18
+          }, {
+            "item" : "24454",
+            "count" : 17
+          }, {
+            "item" : "16579",
+            "count" : 16
+          }, {
+            "item" : "12515",
+            "count" : 15
+          }, {
+            "item" : "28887",
+            "count" : 14
+          }, {
+            "item" : "17949",
+            "count" : 13
+          }, {
+            "item" : "20588",
+            "count" : 12
+          }, {
+            "item" : "14685",
+            "count" : 11
+          }, {
+            "item" : "17104",
+            "count" : 10
+          }, {
+            "item" : "16563",
+            "count" : 9
+          }, {
+            "item" : "8201",
+            "count" : 8
+          }, {
+            "item" : "22677",
+            "count" : 7
+          }, {
+            "item" : "26353",
+            "count" : 6
+          }, {
+            "item" : "16134",
+            "count" : 5
+          }, {
+            "item" : "13089",
+            "count" : 4
+          }, {
+            "item" : "16954",
+            "count" : 3
+          }, {
+            "item" : "22694",
+            "count" : 2
+          }, {
+            "item" : "12765",
+            "count" : 1
+          } ],
+          "smallest" : "8201",
+          "sum" : "1996566"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "precision" : "0",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166494374,
+        "name" : "HARDSHIP INDEX",
+        "dataTypeName" : "number",
+        "description" : "Score that incorporates each of the six selected socioeconomic indicators (see dataset description)\n\n",
+        "fieldName" : "hardship_index",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907340,
+        "width" : 144,
+        "cachedContents" : {
+          "non_null" : 77,
+          "average" : "49.50649350649351",
+          "largest" : "98",
+          "null" : 1,
+          "top" : [ {
+            "item" : "58",
+            "count" : 20
+          }, {
+            "item" : "55",
+            "count" : 19
+          }, {
+            "item" : "60",
+            "count" : 18
+          }, {
+            "item" : "41",
+            "count" : 17
+          }, {
+            "item" : "75",
+            "count" : 16
+          }, {
+            "item" : "79",
+            "count" : 15
+          }, {
+            "item" : "38",
+            "count" : 14
+          }, {
+            "item" : "52",
+            "count" : 13
+          }, {
+            "item" : "51",
+            "count" : 12
+          }, {
+            "item" : "65",
+            "count" : 11
+          }, {
+            "item" : "64",
+            "count" : 10
+          }, {
+            "item" : "62",
+            "count" : 9
+          }, {
+            "item" : "98",
+            "count" : 8
+          }, {
+            "item" : "44",
+            "count" : 7
+          }, {
+            "item" : "32",
+            "count" : 6
+          }, {
+            "item" : "67",
+            "count" : 5
+          }, {
+            "item" : "84",
+            "count" : 4
+          }, {
+            "item" : "61",
+            "count" : 3
+          }, {
+            "item" : "43",
+            "count" : 2
+          }, {
+            "item" : "91",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "3812"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\ECONOMIC_INDICATORS\\Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf",
+          "assetId" : "A5KBlegGR2nWI1jgP6pjJl32CTPwPbkl9KU3FxlZk-A",
+          "blobId" : "",
+          "name" : "P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\ECONOMIC_INDICATORS\\Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf"
+        } ],
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "2008 - 2012",
+            "Frequency" : "Updated as new data becomes available",
+            "Data Owner" : "Public Health"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "is6y-5c5n",
+        "displayName" : "Jamyia",
+        "screenName" : "Jamyia",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "is6y-5c5n",
+        "displayName" : "Jamyia",
+        "screenName" : "Jamyia",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "tags" : [ "income", "education", "poverty", "unemployment" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-m5zg_7ice_9x3n", "00000000-0000-0000-3F59-2D0E1F33DB2E", 0, 1424385079, null, 1424385079, null, "{ }", "1", "Rogers Park", "7.7", "23.6", "8.7", "18.2", "27.5", "23939", "39" ]
+, [ "row-p489-digb_j6vs", "00000000-0000-0000-F214-FA58348FC2BA", 0, 1424385079, null, 1424385079, null, "{ }", "2", "West Ridge", "7.8", "17.2", "8.8", "20.8", "38.5", "23040", "46" ]
+, [ "row-ifr4-eqvk-wq34", "00000000-0000-0000-FC57-698ABABC912B", 0, 1424385079, null, 1424385079, null, "{ }", "3", "Uptown", "3.8", "24", "8.9", "11.8", "22.2", "35787", "20" ]
+, [ "row-mtjz-pdcu.dwk2", "00000000-0000-0000-BC6C-8E8D2363750E", 0, 1424385079, null, 1424385079, null, "{ }", "4", "Lincoln Square", "3.4", "10.9", "8.2", "13.4", "25.5", "37524", "17" ]
+, [ "row-j5jf.2kmm_8jcp", "00000000-0000-0000-4A21-C83E87F40AD8", 0, 1424385079, null, 1424385079, null, "{ }", "5", "North Center", "0.3", "7.5", "5.2", "4.5", "26.2", "57123", "6" ]
+, [ "row-g9cv~v7en~wptt", "00000000-0000-0000-A471-751A72C873FB", 0, 1424385079, null, 1424385079, null, "{ }", "6", "Lake View", "1.1", "11.4", "4.7", "2.6", "17", "60058", "5" ]
+, [ "row-p99r_fb7a.7th3", "00000000-0000-0000-312E-EE685FECE0A0", 0, 1424385079, null, 1424385079, null, "{ }", "7", "Lincoln Park", "0.8", "12.3", "5.1", "3.6", "21.5", "71551", "2" ]
+, [ "row-44my~abz7-3xxu", "00000000-0000-0000-E801-AE001A7ED9AB", 0, 1424385079, null, 1424385079, null, "{ }", "8", "Near North Side", "1.9", "12.9", "7", "2.5", "22.6", "88669", "1" ]
+, [ "row-9yuc_qrzz~79w6", "00000000-0000-0000-8A42-FD087582A285", 0, 1424385079, null, 1424385079, null, "{ }", "9", "Edison Park", "1.1", "3.3", "6.5", "7.4", "35.3", "40959", "8" ]
+, [ "row-d3s8_vma5.7isj", "00000000-0000-0000-525B-B6CB801D1BFC", 0, 1424385079, null, 1424385079, null, "{ }", "10", "Norwood Park", "2", "5.4", "9", "11.5", "39.5", "32875", "21" ]
+, [ "row-b6tm~3nat.58is", "00000000-0000-0000-B8AE-7A6C1617DAAF", 0, 1424385079, null, 1424385079, null, "{ }", "11", "Jefferson Park", "2.7", "8.6", "12.4", "13.4", "35.5", "27751", "25" ]
+, [ "row-bmp5-8pce.u9jm", "00000000-0000-0000-7BD5-036F70009A2C", 0, 1424385079, null, 1424385079, null, "{ }", "12", "Forest Glen", "1.1", "7.5", "6.8", "4.9", "40.5", "44164", "11" ]
+, [ "row-e7t4~3zxd_3zhs", "00000000-0000-0000-D436-52144CD77831", 0, 1424385079, null, 1424385079, null, "{ }", "13", "North Park", "3.9", "13.2", "9.9", "14.4", "39", "26576", "33" ]
+, [ "row-vuvu.fugx~zzwm", "00000000-0000-0000-0E14-BF94C7A8C2F9", 0, 1424385079, null, 1424385079, null, "{ }", "14", "Albany Park", "11.3", "19.2", "10", "32.9", "32", "21323", "53" ]
+, [ "row-sd4y_ir76~3dvy", "00000000-0000-0000-A0F0-0535A10CA76B", 0, 1424385079, null, 1424385079, null, "{ }", "15", "Portage Park", "4.1", "11.6", "12.6", "19.3", "34", "24336", "35" ]
+, [ "row-53gs.26qv~jn9n", "00000000-0000-0000-CFD7-664F5AECEDA3", 0, 1424385079, null, 1424385079, null, "{ }", "16", "Irving Park", "6.3", "13.1", "10", "22.4", "31.6", "27249", "34" ]
+, [ "row-dm2b_592d-dywg", "00000000-0000-0000-86B5-2FE3BFC449DA", 0, 1424385079, null, 1424385079, null, "{ }", "17", "Dunning", "5.2", "10.6", "10", "16.2", "33.6", "26282", "28" ]
+, [ "row-j9qm~xp6w.62kg", "00000000-0000-0000-BD65-92C30E21ECB7", 0, 1424385079, null, 1424385079, null, "{ }", "18", "Montclaire", "8.1", "15.3", "13.8", "23.5", "38.6", "22014", "50" ]
+, [ "row-cd79_crug_pxen", "00000000-0000-0000-C377-BD1F0530CED9", 0, 1424385079, null, 1424385079, null, "{ }", "19", "Belmont Cragin", "10.8", "18.7", "14.6", "37.3", "37.3", "15461", "70" ]
+, [ "row-wurp.j4ii_ding", "00000000-0000-0000-BDB1-25916B0717AE", 0, 1424385079, null, 1424385079, null, "{ }", "20", "Hermosa", "6.9", "20.5", "13.1", "41.6", "36.4", "15089", "71" ]
+, [ "row-p7tb.dm2p-2zam", "00000000-0000-0000-CC7D-094540A85971", 0, 1424385079, null, 1424385079, null, "{ }", "21", "Avondale", "6", "15.3", "9.2", "24.7", "31", "20039", "42" ]
+, [ "row-hpmb_wtsy_hgi2", "00000000-0000-0000-C809-50192D72A4BC", 0, 1424385079, null, 1424385079, null, "{ }", "22", "Logan Square", "3.2", "16.8", "8.2", "14.8", "26.2", "31908", "23" ]
+, [ "row-xvsd.axjn~d6rs", "00000000-0000-0000-6A4B-737AA7746858", 0, 1424385079, null, 1424385079, null, "{ }", "23", "Humboldt park", "14.8", "33.9", "17.3", "35.4", "38", "13781", "85" ]
+, [ "row-qxdr_zmxu~frq7", "00000000-0000-0000-B8E4-5063AE31FD5A", 0, 1424385079, null, 1424385079, null, "{ }", "24", "West Town", "2.3", "14.7", "6.6", "12.9", "21.7", "43198", "10" ]
+, [ "row-atsa-82ty~wkkx", "00000000-0000-0000-22E9-1230FE05C364", 0, 1424385079, null, 1424385079, null, "{ }", "25", "Austin", "6.3", "28.6", "22.6", "24.4", "37.9", "15957", "73" ]
+, [ "row-hyxi-n9rp.i8sx", "00000000-0000-0000-BBBC-5E14CA70C6B8", 0, 1424385079, null, 1424385079, null, "{ }", "26", "West Garfield Park", "9.4", "41.7", "25.8", "24.5", "43.6", "10934", "92" ]
+, [ "row-hvdq~vwsg~z2v3", "00000000-0000-0000-5B63-3494F3D84E8E", 0, 1424385079, null, 1424385079, null, "{ }", "27", "East Garfield Park", "8.2", "42.4", "19.6", "21.3", "43.2", "12961", "83" ]
+, [ "row-c4e9_88yi.g246", "00000000-0000-0000-ECD8-A4D08C41EEA8", 0, 1424385079, null, 1424385079, null, "{ }", "28", "Near West Side", "3.8", "20.6", "10.7", "9.6", "22.2", "44689", "15" ]
+, [ "row-b54y~anxc_hyaj", "00000000-0000-0000-E680-FABA977ADE5E", 0, 1424385079, null, 1424385079, null, "{ }", "29", "North Lawndale", "7.4", "43.1", "21.2", "27.6", "42.7", "12034", "87" ]
+, [ "row-5quv~xzx2~mix4", "00000000-0000-0000-D773-A73B9F798078", 0, 1424385079, null, 1424385079, null, "{ }", "30", "South Lawndale", "15.2", "30.7", "15.8", "54.8", "33.8", "10402", "96" ]
+, [ "row-duuj-fxgk_f7kp", "00000000-0000-0000-B6DC-EF5543B95C47", 0, 1424385079, null, 1424385079, null, "{ }", "31", "Lower West Side", "9.6", "25.8", "15.8", "40.7", "32.6", "16444", "76" ]
+, [ "row-p2dk.8vpb~nhkx", "00000000-0000-0000-88A3-861ADC2334BD", 0, 1424385079, null, 1424385079, null, "{ }", "32", "Loop", "1.5", "14.7", "5.7", "3.1", "13.5", "65526", "3" ]
+, [ "row-e8da_gfi4~zgdd", "00000000-0000-0000-BB85-81DB59A406EF", 0, 1424385079, null, 1424385079, null, "{ }", "33", "Near South Side", "1.3", "13.8", "4.9", "7.4", "21.8", "59077", "7" ]
+, [ "row-np7x~m8tw.wu4s", "00000000-0000-0000-CE25-8D7E76D9835E", 0, 1424385079, null, 1424385079, null, "{ }", "34", "Armour Square", "5.7", "40.1", "16.7", "34.5", "38.3", "16148", "82" ]
+, [ "row-atfm~tawk-urv5", "00000000-0000-0000-7326-D84E5FFC2349", 0, 1424385079, null, 1424385079, null, "{ }", "35", "Douglas", "1.8", "29.6", "18.2", "14.3", "30.7", "23791", "47" ]
+, [ "row-bvyi-fvu3~p8c3", "00000000-0000-0000-A2A6-C39B275FBE9B", 0, 1424385079, null, 1424385079, null, "{ }", "36", "Oakland", "1.3", "39.7", "28.7", "18.4", "40.4", "19252", "78" ]
+, [ "row-bhu2_u82i~az4x", "00000000-0000-0000-A9C0-CEC042C0BF1F", 0, 1424385079, null, 1424385079, null, "{ }", "37", "Fuller Park", "3.2", "51.2", "33.9", "26.6", "44.9", "10432", "97" ]
+, [ "row-kyw9-qg7w~nr8m", "00000000-0000-0000-A0DB-9E055D00D09E", 0, 1424385079, null, 1424385079, null, "{ }", "38", "Grand Boulevard", "3.3", "29.3", "24.3", "15.9", "39.5", "23472", "57" ]
+, [ "row-79yg-py8d~uyuz", "00000000-0000-0000-C163-B4D2C958CB3E", 0, 1424385079, null, 1424385079, null, "{ }", "39", "Kenwood", "2.4", "21.7", "15.7", "11.3", "35.4", "35911", "26" ]
+, [ "row-6z5x_8zbn-gppp", "00000000-0000-0000-32CE-338FDC0B105B", 0, 1424385079, null, 1424385079, null, "{ }", "40", "Washington Park", "5.6", "42.1", "28.6", "25.4", "42.8", "13785", "88" ]
+, [ "row-4697_pxj7_a7br", "00000000-0000-0000-92D9-9C21F89C735C", 0, 1424385079, null, 1424385079, null, "{ }", "41", "Hyde Park", "1.5", "18.4", "8.4", "4.3", "26.2", "39056", "14" ]
+, [ "row-x2q2.ghyp_abte", "00000000-0000-0000-C8CD-9844AF0B830D", 0, 1424385079, null, 1424385079, null, "{ }", "42", "Woodlawn", "2.9", "30.7", "23.4", "16.5", "36.1", "18672", "58" ]
+, [ "row-rtsv_hebq.g4ug", "00000000-0000-0000-0F36-ECDA827465EF", 0, 1424385079, null, 1424385079, null, "{ }", "43", "South Shore", "2.8", "31.1", "20", "14", "35.7", "19398", "55" ]
+, [ "row-fryq~9696_dztg", "00000000-0000-0000-1025-47E9FC951243", 0, 1424385079, null, 1424385079, null, "{ }", "44", "Chatham", "3.3", "27.8", "24", "14.5", "40.3", "18881", "60" ]
+, [ "row-rbdw.hcz2.db9m", "00000000-0000-0000-5585-BE5CCA54E56B", 0, 1424385079, null, 1424385079, null, "{ }", "45", "Avalon Park", "1.4", "17.2", "21.1", "10.6", "39.3", "24454", "41" ]
+, [ "row-sm7i.qyyz_94b3", "00000000-0000-0000-EC3F-D573C0005F37", 0, 1424385079, null, 1424385079, null, "{ }", "46", "South Chicago", "4.7", "29.8", "19.7", "26.6", "41.1", "16579", "75" ]
+, [ "row-a86f.uwvj.6n6s", "00000000-0000-0000-261A-F5377C347B94", 0, 1424385079, null, 1424385079, null, "{ }", "47", "Burnside", "6.8", "33", "18.6", "19.3", "42.7", "12515", "79" ]
+, [ "row-92ik.tgn4~jzh8", "00000000-0000-0000-DB25-5EC8565AEB57", 0, 1424385079, null, 1424385079, null, "{ }", "48", "Calumet Heights", "2.1", "11.5", "20", "11", "44", "28887", "38" ]
+, [ "row-7h7r-623e_xt7c", "00000000-0000-0000-BE90-92EB6807FB54", 0, 1424385079, null, 1424385079, null, "{ }", "49", "Roseland", "2.5", "19.8", "20.3", "16.9", "41.2", "17949", "52" ]
+, [ "row-28kd-6ahf.sgb9", "00000000-0000-0000-9D58-CDA15A364792", 0, 1424385079, null, 1424385079, null, "{ }", "50", "Pullman", "1.5", "21.6", "22.8", "13.1", "38.6", "20588", "51" ]
+, [ "row-cxee~gri2.qnda", "00000000-0000-0000-312C-57CCB980ED93", 0, 1424385079, null, 1424385079, null, "{ }", "51", "South Deering", "4", "29.2", "16.3", "21", "39.5", "14685", "65" ]
+, [ "row-rv9m.qrcf~3h7i", "00000000-0000-0000-E4F9-B7F2BA4D253D", 0, 1424385079, null, 1424385079, null, "{ }", "52", "East Side", "6.8", "19.2", "12.1", "31.9", "42.8", "17104", "64" ]
+, [ "row-r7bz-6ca3-csiv", "00000000-0000-0000-89DB-0BCE3A6442D1", 0, 1424385079, null, 1424385079, null, "{ }", "53", "West Pullman", "3.3", "25.9", "19.4", "20.5", "42.1", "16563", "62" ]
+, [ "row-375d-5agm.am45", "00000000-0000-0000-9636-54A510227DC4", 0, 1424385079, null, 1424385079, null, "{ }", "54", "Riverdale", "5.8", "56.5", "34.6", "27.5", "51.5", "8201", "98" ]
+, [ "row-cdvh~misu.qtwd", "00000000-0000-0000-37A2-4F4E617350AF", 0, 1424385079, null, 1424385079, null, "{ }", "55", "Hegewisch", "3.3", "17.1", "9.6", "19.2", "42.9", "22677", "44" ]
+, [ "row-gjyy.gg3v_xjhs", "00000000-0000-0000-0835-14385B1BE880", 0, 1424385079, null, 1424385079, null, "{ }", "56", "Garfield Ridge", "2.6", "8.8", "11.3", "19.3", "38.1", "26353", "32" ]
+, [ "row-jses-3uu3-jssq", "00000000-0000-0000-0606-DF8CEAF1FBA8", 0, 1424385079, null, 1424385079, null, "{ }", "57", "Archer Heights", "8.5", "14.1", "16.5", "35.9", "39.2", "16134", "67" ]
+, [ "row-w8dn-3rtk.bwz9", "00000000-0000-0000-A61D-A54C1938EF92", 0, 1424385079, null, 1424385079, null, "{ }", "58", "Brighton Park", "14.4", "23.6", "13.9", "45.1", "39.3", "13089", "84" ]
+, [ "row-bmin~fgxw-kacp", "00000000-0000-0000-D309-9EACE3EDA867", 0, 1424385079, null, 1424385079, null, "{ }", "59", "McKinley Park", "7.2", "18.7", "13.4", "32.9", "35.6", "16954", "61" ]
+, [ "row-hqqb~q7mj.bki8", "00000000-0000-0000-ADD4-0B2B3A1D6B51", 0, 1424385079, null, 1424385079, null, "{ }", "60", "Bridgeport", "4.5", "18.9", "13.7", "22.2", "31.3", "22694", "43" ]
+, [ "row-mqd3.xw26-vf6p", "00000000-0000-0000-1A1C-D44ABB2A4C99", 0, 1424385079, null, 1424385079, null, "{ }", "61", "New City", "11.9", "29", "23", "41.5", "38.9", "12765", "91" ]
+, [ "row-wmj7-t457.5t77", "00000000-0000-0000-BCA3-1853712B2AD8", 0, 1424385079, null, 1424385079, null, "{ }", "62", "West Elsdon", "11.1", "15.6", "16.7", "37", "37.7", "15754", "69" ]
+, [ "row-njcq~5p65.k62b", "00000000-0000-0000-9F02-49447B039461", 0, 1424385079, null, 1424385079, null, "{ }", "63", "Gage Park", "15.8", "23.4", "18.2", "51.5", "38.8", "12171", "93" ]
+, [ "row-8kfu~8ueh.zviv", "00000000-0000-0000-7E4D-BE56A25EB4D1", 0, 1424385079, null, 1424385079, null, "{ }", "64", "Clearing", "2.7", "8.9", "9.5", "18.8", "37.6", "25113", "29" ]
+, [ "row-xct8~fx2q-fctb", "00000000-0000-0000-ABD4-5837B2C481FB", 0, 1424385079, null, 1424385079, null, "{ }", "65", "West Lawn", "5.8", "14.9", "9.6", "33.6", "39.6", "16907", "56" ]
+, [ "row-dsqb-9i2q~xkmv", "00000000-0000-0000-A1ED-43C8149E1E68", 0, 1424385079, null, 1424385079, null, "{ }", "66", "Chicago Lawn", "7.6", "27.9", "17.1", "31.2", "40.6", "13231", "80" ]
+, [ "row-6b7e_rnzc-weqp", "00000000-0000-0000-DB3B-5FF649182923", 0, 1424385079, null, 1424385079, null, "{ }", "67", "West Englewood", "4.8", "34.4", "35.9", "26.3", "40.7", "11317", "89" ]
+, [ "row-jgxc-qacx~k75e", "00000000-0000-0000-3FBE-7F19639A0CF0", 0, 1424385079, null, 1424385079, null, "{ }", "68", "Englewood", "3.8", "46.6", "28", "28.5", "42.5", "11888", "94" ]
+, [ "row-vz8z-6aiq~v8ah", "00000000-0000-0000-4634-2E9827106CCA", 0, 1424385079, null, 1424385079, null, "{ }", "69", "Greater Grand Crossing", "3.6", "29.6", "23", "16.5", "41", "17285", "66" ]
+, [ "row-tksp-y8yb-z4t9", "00000000-0000-0000-0D07-5A9B429857C3", 0, 1424385079, null, 1424385079, null, "{ }", "70", "Ashburn", "4", "10.4", "11.7", "17.7", "36.9", "23482", "37" ]
+, [ "row-6jzw~cepv_wcex", "00000000-0000-0000-43ED-80CE27968B6F", 0, 1424385079, null, 1424385079, null, "{ }", "71", "Auburn Gresham", "4", "27.6", "28.3", "18.5", "41.9", "15528", "74" ]
+, [ "row-ua5s.u62j_qdcf", "00000000-0000-0000-FFBB-82560C963DF7", 0, 1424385079, null, 1424385079, null, "{ }", "72", "Beverly", "0.9", "5.1", "8", "3.7", "40.5", "39523", "12" ]
+, [ "row-zezp-ypvq-wtn4", "00000000-0000-0000-7A1C-B7EDE6E5252C", 0, 1424385079, null, 1424385079, null, "{ }", "73", "Washington Height", "1.1", "16.9", "20.8", "13.7", "42.6", "19713", "48" ]
+, [ "row-qnkz.tnqa_4gpu", "00000000-0000-0000-94B1-5FD658FF1AEF", 0, 1424385079, null, 1424385079, null, "{ }", "74", "Mount Greenwood", "1", "3.4", "8.7", "4.3", "36.8", "34381", "16" ]
+, [ "row-m9s4.2d6p.62qi", "00000000-0000-0000-4023-FEBAAB95309B", 0, 1424385079, null, 1424385079, null, "{ }", "75", "Morgan Park", "0.8", "13.2", "15", "10.8", "40.3", "27149", "30" ]
+, [ "row-x2zy~7t36-eabz", "00000000-0000-0000-091D-57FD1C3369DC", 0, 1424385079, null, 1424385079, null, "{ }", "76", "O'Hare", "3.6", "15.4", "7.1", "10.9", "30.3", "25828", "24" ]
+, [ "row-298z~5cy8_54aj", "00000000-0000-0000-6C47-27B0F6BAB6C3", 0, 1424385079, null, 1424385079, null, "{ }", "77", "Edgewater", "4.1", "18.2", "9.2", "9.7", "23.8", "33385", "19" ]
+, [ "row-nskk-sn8k~h2jc", "00000000-0000-0000-D15E-07BDAF989748", 0, 1424385079, null, 1424385079, null, "{ }", null, "CHICAGO", "4.7", "19.7", "12.9", "19.5", "33.5", "28202", null ]
+ ]
+}

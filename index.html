@@ -76,7 +76,7 @@ $.getJSON("GroceryStoresChicago.geojson", function(data) {
 					weight: .5, 
 				}).addTo(map);
 
-$.getJSON("ChicagoHardshipIndex.geojson.webloc",function(data){
+$.getJSON("ChicagoHardshipIndex.json",function(data){
   	L.geoJson(data, {
 		style: function(feature){
 			var conditionalColor,
