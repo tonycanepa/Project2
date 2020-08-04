@@ -24,7 +24,7 @@
  <!--Jquery -->
 
  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -76,7 +76,28 @@ $.getJSON("GroceryStoresChicago.geojson", function(data) {
 					weight: .5, 
 				}).addTo(map);
 
- </script>
+$.getJSON("ChicagoHardshipIndex.geojson.webloc",function(data){
+  	L.geoJson(data, {
+		style: function(feature){
+			var conditionalColor,
+			hardship = feature.properties.HI;
+				if ( hardship > 80 ) conditionalColor = "#006837";
+				else if ( hardship > 60 ) conditionalColor = "#31a354";
+				else if ( hardship > 40 ) conditionalColor = "#78c679";
+				else if ( hardship > 20 ) conditionalColor = "#c2e699";
+				else if ( hardship > 0 ) conditionalColor = "#ffffcc";
+				else conditionalColor = "#f7f7f7";  // no data
+				return { 	color: "#999", 
+							weight: 1, 
+							fillColor: conditionalColor, 
+							fillOpacity: .6 };
+				},
+				onEachFeature: function( feature, layer ){
+				    layer.bindPopup( "Neighborhood: " + feature.properties.CA + "<br/>" + "Hardship Index Score: " + feature.properties.HI )
+				}
+  					}  ).addTo(map).bringToBack();
+				}); 
+</script>
 
 
 
